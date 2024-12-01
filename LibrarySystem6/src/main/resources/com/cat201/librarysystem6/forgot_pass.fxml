@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cat201.librarysystem6.MemberController">
+   <children>
+      <Pane layoutX="61.0" layoutY="14.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="65.0" layoutY="97.0" text="Member ID">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="65.0" layoutY="144.0" text="Name">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="65.0" layoutY="200.0" text="*Security Code" textFill="RED">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Line endX="495.99993896484375" endY="-1.1444091796875E-5" layoutX="104.0" layoutY="56.0" startX="-103.99998474121094" startY="-1.1444091796875E-5" strokeWidth="0.4" />
+            <Text layoutX="205.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Forgot Password">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+            <Label layoutX="65.0" layoutY="285.0" text="Retrieved Password">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="forgotMemberID" layoutX="217.0" layoutY="94.0" prefHeight="25.0" prefWidth="244.0" promptText="e.g 22578964" />
+            <TextField fx:id="forgotName" disable="true" editable="false" layoutX="217.0" layoutY="141.0" prefHeight="25.0" prefWidth="244.0" promptText="Your name" />
+            <TextField fx:id="forgotSecurityAnswer" layoutX="217.0" layoutY="197.0" prefHeight="25.0" prefWidth="244.0" promptText="Your security code" />
+            <TextField fx:id="retrievedPassword" editable="false" layoutX="217.0" layoutY="282.0" prefHeight="25.0" prefWidth="244.0" promptText="Your retrieved password" />
+            <Button fx:id="forgotSearchButton" layoutX="467.0" layoutY="94.0" mnemonicParsing="false" onAction="#handleForgotSearch" prefHeight="25.0" prefWidth="91.0" text="Search" />
+            <Button fx:id="forgotRetrieveButton" layoutX="467.0" layoutY="197.0" mnemonicParsing="false" onAction="#handleRetrievePassword" prefHeight="25.0" prefWidth="91.0" text="Retrieve" />
+            <Button fx:id="forgotBackButton" layoutX="254.0" layoutY="344.0" mnemonicParsing="false" onAction="#handleBackButtonForgot" prefHeight="32.0" prefWidth="91.0" text="Back" />
+            <Text fill="RED" layoutX="65.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Enter you one-time security code backup you got during member sign up" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="486.0" prefWidth="703.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cat201.librarysystem6.AppLaunchController">
+   <children>
+      <Pane layoutX="47.0" layoutY="55.0" prefHeight="486.0" prefWidth="703.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="120.0" fitWidth="116.0" layoutX="151.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/book.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="283.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to BookStream ">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="322.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Library Management System">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <TextField fx:id="loginAdminID" layoutX="268.0" layoutY="195.0" prefHeight="25.0" prefWidth="287.0" promptText="Enter your ID" />
+            <Label layoutX="166.0" layoutY="194.0" text="Admin ID">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="166.0" layoutY="246.0" text="Password">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="loginAdminPassword" layoutX="268.0" layoutY="247.0" prefHeight="25.0" prefWidth="287.0" promptText="Enter your password" />
+            <Button layoutX="424.0" layoutY="297.0" mnemonicParsing="false" onAction="#handleAdminLogin" prefHeight="32.0" prefWidth="131.0" text="Login into System" />
+            <Label layoutX="166.0" layoutY="381.0" text="Not an Admin?" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button layoutX="303.0" layoutY="382.0" mnemonicParsing="false" onAction="#handleLoginAsMember" prefHeight="25.0" prefWidth="116.0" text="Login as Member" />
+            <ImageView fitHeight="25.0" fitWidth="31.0" layoutX="136.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/usernameIcon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="32.0" fitWidth="36.0" layoutX="132.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/passwordIcon.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

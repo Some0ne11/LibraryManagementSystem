@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="689.0" prefWidth="927.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cat201.librarysystem6.HomeAdminController">
+   <children>
+      <Pane prefHeight="694.0" prefWidth="927.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="86.0" fitWidth="480.0" layoutX="248.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/libraryHeader.jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="151.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Library Management System (Admin)">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="146.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/addBookIcon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="389.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/statisticIcon.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="addNewBookButton" layoutX="146.0" layoutY="383.0" mnemonicParsing="false" onAction="#handleAddNewBook" prefHeight="38.0" prefWidth="150.0" text="Add New Book" />
+            <Button fx:id="dashboardButton" layoutX="393.0" layoutY="383.0" mnemonicParsing="false" onAction="#handleDashboard" prefHeight="38.0" prefWidth="150.0" text="Dashboard" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="267.0" layoutY="447.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/issueBookIcon.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="issueBookButton" layoutX="267.0" layoutY="608.0" mnemonicParsing="false" onAction="#handleIssueBook" prefHeight="38.0" prefWidth="150.0" text="Issue Book" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="519.0" layoutY="447.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/returnBookIcon.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="returnBookButton" layoutX="519.0" layoutY="608.0" mnemonicParsing="false" onAction="#handleReturnBook" prefHeight="38.0" prefWidth="150.0" text="Return Book" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="635.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/searchIcon.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="searchBookButton" layoutX="634.0" layoutY="382.0" mnemonicParsing="false" onAction="#handleSearchBook" prefHeight="38.0" prefWidth="150.0" text="Search Book" />
+            <Button fx:id="logoutButton" layoutX="845.0" layoutY="53.0" mnemonicParsing="false" onAction="#handleLogout" text="Logout" />
+            <Line endX="826.0000610351562" endY="7.62939453125E-6" layoutX="101.0" layoutY="39.0" startX="-100.0" strokeWidth="0.4" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
