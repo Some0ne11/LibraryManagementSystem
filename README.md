@@ -13,6 +13,7 @@
 </p>
 
 <h2 id="overview">👀 Overview</h2>
+
 BookStream is a library management system designed to streamline library operations, including user management and book inventory tracking. This document provides the necessary steps to set up, run, and operate the system using IntelliJ IDEA.
 
 https://github.com/user-attachments/assets/0cf80ca9-7d7b-4c7c-8133-ed1712dbed1a
@@ -54,6 +55,7 @@ https://github.com/user-attachments/assets/0cf80ca9-7d7b-4c7c-8133-ed1712dbed1a
 ---
 
 <h2 id="important">❗ Important Notes</h2>
+
 1. **File Integrity**:
    - Do not modify the structure or content of the `Member.csv` and `Book.csv` files manually to avoid system errors.
    - The application handles all necessary file I/O operations.  
