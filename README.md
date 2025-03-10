@@ -47,6 +47,7 @@ https://github.com/user-attachments/assets/0cf80ca9-7d7b-4c7c-8133-ed1712dbed1a
 ---
 
 <h2 id="collections">📃 Book Collection</h2>
+
 - The library's book inventory is maintained in the file:  
   `Book.csv`
 
