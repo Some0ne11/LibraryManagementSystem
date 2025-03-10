@@ -10,6 +10,8 @@
 <a href="#collections">Book Collections</a>
       <span>&nbsp; • &nbsp;</span>
 <a href="#important">Important Notes</a>
+         <span>&nbsp; • &nbsp;</span>
+<a href="#team">Team Members</a>
 </p>
 
 <h2 id="overview">👀 Overview</h2>
@@ -64,3 +66,41 @@ https://github.com/user-attachments/assets/0cf80ca9-7d7b-4c7c-8133-ed1712dbed1a
    - Any manual changes to the specified files can disrupt the application's functionality.
 
 ---
+
+<h2 id="team">🤝 Team Members</h2>
+
+<p>Special thanks to all contributors of this project.</p>
+<table>
+<tr>
+
+<td align="center">
+<a href="https://github.com/Some0ne11">
+<img src="https://avatars.githubusercontent.com/u/122141550?v=4" width="100px;" alt="Profile Picture"/><br>
+<sub>
+<b>Muhammad Ammar Danial (22301793)</b>
+</sub>
+</a>
+</td>
+
+<td align="center">
+<a href="https://github.com/#">
+<img src="#" width="100px;" alt="Profile Picture"/><br>
+<sub>
+<b>Ng Xuan Hern (22304061)</b>
+</sub>
+</a>
+</td>
+
+<td align="center">
+<a href="https://github.com/#">
+<img src="#" width="100px;" alt="Profile Picture"/><br>
+<sub>
+<b>Low Yvonne (22305530)</b>
+</sub>
+</a>
+</td>
+
+</tr>
+</table>
+
+
