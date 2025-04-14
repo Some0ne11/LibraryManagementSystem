@@ -83,8 +83,8 @@ https://github.com/user-attachments/assets/0cf80ca9-7d7b-4c7c-8133-ed1712dbed1a
 </td>
 
 <td align="center">
-<a href="https://github.com/#">
-<img src="#" width="100px;" alt="Profile Picture"/><br>
+<a href="https://github.com/ngxuanhern">
+<img src="https://avatars.githubusercontent.com/u/177940919?v=4" width="100px;" alt="Profile Picture"/><br>
 <sub>
 <b>Ng Xuan Hern (22304061)</b>
 </sub>
@@ -92,8 +92,8 @@ https://github.com/user-attachments/assets/0cf80ca9-7d7b-4c7c-8133-ed1712dbed1a
 </td>
 
 <td align="center">
-<a href="https://github.com/#">
-<img src="#" width="100px;" alt="Profile Picture"/><br>
+<a href="https://github.com/L049XEZ">
+<img src="https://avatars.githubusercontent.com/u/115411319?v=4" width="100px;" alt="Profile Picture"/><br>
 <sub>
 <b>Low Yvonne (22305530)</b>
 </sub>
